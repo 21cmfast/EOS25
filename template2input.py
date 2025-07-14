@@ -11,10 +11,8 @@ from pathlib import Path
 
 import attrs
 
-from .wrapper._utils import camel_to_snake
-from .wrapper.inputs import InputStruct
-
-TEMPLATE_PATH = Path(__file__).parent / "templates/"
+from py21cmfast.wrapper._utils import camel_to_snake
+from py21cmfast.wrapper.inputs import InputStruct
 
 logger = logging.getLogger(__name__)
 
@@ -39,12 +37,6 @@ def _construct_param_objects(template_dict, **kwargs):
     return input_dict
 
 
-def list_templates() -> list[dict]:
-    """Return a list of the available templates."""
-    with (TEMPLATE_PATH / "manifest.toml").open("rb") as f:
-        manifest = tomllib.load(f)
-    return manifest["templates"]
-
 
 def load_template_file(template_name: str | Path):
     """
@@ -58,22 +50,7 @@ def load_template_file(template_name: str | Path):
         with Path(template_name).open("rb") as template_file:
             return tomllib.load(template_file)
 
-    with (TEMPLATE_PATH / "manifest.toml").open("rb") as f:
-        manifest = tomllib.load(f)
-    for manf_entry in manifest["templates"]:
-        if template_name.casefold() in [x.casefold() for x in manf_entry["aliases"]]:
-            with (TEMPLATE_PATH / manf_entry["file"]).open("rb") as f:
-                return tomllib.load(f)
-
-    message = (
-        f"Template {template_name} not found on-disk or in native template aliases\n"
-        + "Available native templates are:\n"
-    )
-    for manf_entry in manifest["templates"]:
-        message += f"{manf_entry['name']}: {manf_entry['aliases']}\n"
-        message += f"     {manf_entry['description']}:\n\n"
-
-    raise ValueError(message)
+    raise ValueError("Invalid template path", template_name)
 
 
 def create_params_from_template(template_name: str | Path, **kwargs):
