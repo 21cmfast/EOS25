@@ -1,5 +1,7 @@
 # EOS25 template
 
+[random_seed]
+
 ### Astro Params ###
 [AstroParams]
 F_STAR10 = -1.25
@@ -19,7 +21,7 @@ SIGMA_SFR_LIM = 0.19
 SIGMA_SFR_INDEX = -0.12
 
 HII_EFF_FACTOR = 30.0
-R_BUBBLE_MAX = 15.0
+R_BUBBLE_MAX = 50.0
 R_BUBBLE_MIN = 0.620350491
 ION_Tvir_MIN = 4.69897
 X_RAY_SPEC_INDEX = 1.0
