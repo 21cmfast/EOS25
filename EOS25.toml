@@ -12,7 +12,6 @@ ALPHA_ESC = -0.3
 M_TURN = 5.0
 t_STAR = 0.5
 L_X = 40.5
-X_RAY_SPEC_INDEX = 1.0
 NU_X_THRESH = 500
 SIGMA_STAR = 0.25
 SIGMA_LX = 0.5
@@ -63,9 +62,9 @@ wl = -1.0
 
 ### Simulation Options ###
 [SimulationOptions]
-HII_DIM=1365
-DIM=1365*3
-BOX_LEN=2048
+HII_DIM = 1365
+DIM = 4095
+BOX_LEN = 2048
 N_THREADS = 25
 SAMPLER_MIN_MASS = 1e9
 
@@ -117,7 +116,6 @@ USE_MINI_HALOS = false
 USE_TS_FLUCT = true
 INHOMO_RECO = true
 
-USE_MINI_HALOS = false
 USE_CMB_HEATING = true
 USE_LYA_HEATING = true
 USE_MASS_DEPENDENT_ZETA = true
@@ -131,7 +129,7 @@ USE_UPPER_STELLAR_TURNOVER = true
 M_MIN_in_Mass = true
 HALO_SCALING_RELATIONS_MEDIAN = false
 HII_FILTER = "spherical-tophat"
-HEAT_FILTER = "spherical-tophat",
+HEAT_FILTER = "spherical-tophat"
 IONISE_ENTIRE_SPHERE = false
 AVG_BELOW_SAMPLER = true
 INTEGRATION_METHOD_ATOMIC = "GAUSS-LEGENDRE"
