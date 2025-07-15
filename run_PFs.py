@@ -6,7 +6,7 @@ import argparse
 parser.add_argument("--z_idx", type = int)
 z_idx = parser.parse_args().z_idx
 
-cache = p21c.OutputCache('/ocean/projects/phy210034p/breitman/EoS25/EOS25_L4095_HIIDIM1365_DIM2048')
+cache = p21c.OutputCache('/ocean/projects/phy210034p/breitman/EOS25/EOS25_L4095_HIIDIM1365_DIM2048')
 
 inputs = p21c.InputParameters(**create_params_from_template("EOS25_full.toml"),
         node_redshifts=p21c.wrapper.inputs.get_logspaced_redshifts(
@@ -17,7 +17,7 @@ inputs = p21c.InputParameters(**create_params_from_template("EOS25_full.toml"),
         random_seed=1234,
     )
 
-initial_conditions = p21c.io.h5.read_output_struct("/ocean/projects/phy210034p/breitman/EoS25/EOS25_L4095_HIIDIM1365_DIM2048/aa3f843276bd385be155ef7cef5ac7c8/1234/InitialConditions.h5")
+initial_conditions = p21c.io.h5.read_output_struct("/ocean/projects/phy210034p/breitman/EOS25/EOS25_L4095_HIIDIM1365_DIM2048/aa3f843276bd385be155ef7cef5ac7c8/1234/InitialConditions.h5")
 
 z = inputs.node_redshifts[z_idx]
 
