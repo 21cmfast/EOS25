@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -p EM
-#SBATCH -t 12:00:00
+#SBATCH -t 6:00:00
 #SBATCH --ntasks-per-node=48
 
 #echo commands to stdout
@@ -14,4 +14,4 @@ module load openmpi/5.0.3-gcc13.2.1
 conda activate 21cmFASTv4
 cd /jet/home/breitman/EOSv4
 
-21cmfast run ics --param-file EOS25.toml
+21cmfast run ics --param-file EOS25.toml --seed 1234 --cache_dir "/ocean/projects/phy210034p/breitman/EoS25/EOS25_L4095_HIIDIM1365_DIM2048"
