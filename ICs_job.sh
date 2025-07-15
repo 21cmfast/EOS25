@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -p EM
-#SBATCH -t 6:00:00
+#SBATCH -t 12:00:00
 #SBATCH --ntasks-per-node=48
 
 #echo commands to stdout
