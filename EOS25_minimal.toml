@@ -5,7 +5,7 @@
 HII_DIM = 1365
 DIM = 4095
 BOX_LEN = 2048
-N_THREADS = 25
+N_THREADS = 48
 SAMPLER_MIN_MASS = 1e9
 
 ### Astro Params ###
