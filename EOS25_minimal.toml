@@ -36,7 +36,7 @@ MINIMIZE_MEMORY = true
 
 ### Astro Options ###
 [AstroOptions]
-USE_MINI_HALOS = false
+USE_MINI_HALOS = true
 USE_TS_FLUCT = true
 INHOMO_RECO = true
 
