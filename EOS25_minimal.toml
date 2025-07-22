@@ -2,9 +2,9 @@
 
 ### Simulation Options ###
 [SimulationOptions]
-HII_DIM = 1365
-DIM = 4095
-BOX_LEN = 2048
+HII_DIM = 1400
+DIM = 4200
+BOX_LEN = 2100
 N_THREADS = 16
 SAMPLER_MIN_MASS = 1e9
 
@@ -32,7 +32,8 @@ USE_HALO_FIELD = true
 HALO_STOCHASTICITY = true
 KEEP_3D_VELOCITIES = true
 MINIMIZE_MEMORY = true
-
+USE_RELATIVE_VELOCITIES = true
+PERTURB_ON_HIGH_RES = true
 
 ### Astro Options ###
 [AstroOptions]
