@@ -7,7 +7,7 @@ import argparse
 parser.add_argument("--z_idx", type = int)
 z_idx = parser.parse_args().z_idx
 
-cache = p21c.OutputCache('/ocean/projects/phy210034p/breitman/EOS25/EOS25_L4095_HIIDIM1365_DIM2048')
+cache = p21c.OutputCache('/ocean/projects/phy210034p/breitman/EOS25/EOS25_L2100_HIIDIM1400_DIM4200')
 
 inputs = p21c.InputParameter.from_template("EOS25_full.toml", random_seed=1234)
 runcache = RunCache.from_inputs(inputs, cache=cache)
