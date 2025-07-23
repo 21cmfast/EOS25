@@ -15,14 +15,14 @@ initial_conditions = runcache.get_ics()
 inputs = initial_conditions.inputs  # use the real inputs, with correct node_redshifts
 z = inputs.node_redshifts[z_idx]
 
-halolist_init = p21c.determine_halo_list(
-    redshift=inputs.node_redshifts[-1],
+this_halolist = p21c.determine_halo_list(
+    redshift=z,
     initial_conditions=initial_conditions,
     inputs=inputs
 )
 
 pt_halos = p21c.perturb_halo_list(
-    halo_field=halolist_init, initial_conditions=initial_conditions,
+    halo_field=this_halolist, initial_conditions=initial_conditions,
 )
 
 #Load the PF pt_field
