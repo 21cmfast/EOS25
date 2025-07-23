@@ -26,12 +26,18 @@ pt_halos = p21c.perturb_halo_list(
 )
 
 #Load the PF pt_field
-halo_box = p21c.compute_halo_grid(perturbed_field=pt_field, 
+this_hbox = p21c.compute_halo_grid(perturbed_field=pt_field, 
                                   perturbed_halo_list=pt_halos, 
-                                  initial_conditions=initial_conditions
+                                  initial_conditions=initial_conditions,
+                                  write=True,
                                   )
 
 # Make list of all previous hbox_arr += [this_halobox]
+hbox_arr = []
+for i in range(z_idx):
+    prev_hbox = 
+    hbox_arr += [prev_hbox]
+hbox_arr += [this_hbox]
 
 this_xraysource = p21c.compute_xray_source_field(
                         redshift=z,
@@ -40,6 +46,10 @@ this_xraysource = p21c.compute_xray_source_field(
                     )
 
 # load prev_ts or None
+if z_idx > 0:
+    #load prev ts
+else:
+    prev_ts=None
 this_spin_temp = p21c.compute_spin_temperature(
                     inputs=inputs,
                     previous_spin_temp=prev_ts,
