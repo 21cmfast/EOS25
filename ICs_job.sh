@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -p EM
 #SBATCH -t 12:00:00
-#SBATCH --ntasks-per-node=48
+#SBATCH --ntasks-per-node=54
 
 #echo commands to stdout
 #set -x
