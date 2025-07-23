@@ -33,15 +33,17 @@ halo_box = p21c.compute_halo_grid(perturbed_field=pt_field,
 
 # Make list of all previous hbox_arr += [this_halobox]
 
-this_xraysrouce = p21c.compute_xray_source_field(
+this_xraysource = p21c.compute_xray_source_field(
                         redshift=z,
                         hboxes=hbox_arr,
                         write=True,
                     )
+
+# load prev_ts or None
 this_spin_temp = p21c.compute_spin_temperature(
                     inputs=inputs,
-                    previous_spin_temp=getattr(prev_coeval, "ts_box", None),
+                    previous_spin_temp=prev_ts,
                     perturbed_field=this_perturbed_field,
-                    xray_source_box=this_xraysrouce,
+                    xray_source_box=this_xraysource,
                     write=True,
                 )
