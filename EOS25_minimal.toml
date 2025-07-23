@@ -33,7 +33,7 @@ HALO_STOCHASTICITY = true
 KEEP_3D_VELOCITIES = true
 MINIMIZE_MEMORY = true
 USE_RELATIVE_VELOCITIES = true
-PERTURB_ON_HIGH_RES = true
+PERTURB_ON_HIGH_RES = false
 
 ### Astro Options ###
 [AstroOptions]
