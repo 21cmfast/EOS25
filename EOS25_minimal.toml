@@ -25,6 +25,7 @@ SIGMA_STAR = 0.14
 SIGMA_LX = 0.5
 SIGMA_SFR_LIM = 0.19
 SIGMA_SFR_INDEX = -0.12
+R_BUBBLE_MAX = 50.0
 
 ### Matter Options ###
 [MatterOptions]
@@ -40,5 +41,6 @@ PERTURB_ON_HIGH_RES = false
 USE_MINI_HALOS = true
 USE_TS_FLUCT = true
 INHOMO_RECO = true
-
+#USE_UPPER_STELLAR_TURNOVER = false
+#USE_EXP_FILTER = false
 [CosmoParams]
