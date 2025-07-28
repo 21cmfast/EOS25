@@ -3,7 +3,7 @@ from py21cmfast.io.caching import RunCache
 import numpy as np
 from template2input import create_params_from_template
 import argparse
-
+parser = argparse.ArgumentParser()
 parser.add_argument("--z_idx", type = int)
 z_idx = parser.parse_args().z_idx
 
