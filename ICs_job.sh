@@ -15,4 +15,5 @@ conda activate 21cmFASTv4
 cd /jet/home/breitman/EOSv4
 
 21cmfast run ics --param-file EOS25.toml --seed 1234 --cachedir "/ocean/projects/phy210034p/breitman/EOS25/EOS25_L2100_HIIDIM1400_DIM4200" --min-evolved-redshift 5.0 --zprime-step-factor 1.02
+cd ..
 bash submit_PF_jobs.sh
