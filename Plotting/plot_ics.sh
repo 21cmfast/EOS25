@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -p RM-shared
 #SBATCH -t 1:00:00
-#SBATCH --ntasks-per-node=28
+#SBATCH --ntasks-per-node=24
 
 #echo commands to stdout
 #set -x
