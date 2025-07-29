@@ -35,9 +35,9 @@ All scipts required to reproduce the EOS25 simulation
   <tr>
     <td>One perturbed field<br></td>
     <td>0.75<br></td>
-    <td></td>
+    <td>1.0</td>
     <td>0.43<br></td>
-    <td></td>
+    <td>0.41</td>
     <td>43Gb x 92 = 4Tb</td>
     <td></td>
     <td>9k RM-512</td>
