@@ -28,7 +28,7 @@ All scipts required to reproduce the EOS25 simulation
     <td>2.5</td>
     <td>1.96</td>
     <td>1.2</td>
-    <td></td>
+    <td>1.2</td>
     <td>800 EM</td>
     <td>1170.92</td>
   </tr>
