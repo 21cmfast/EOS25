@@ -1,6 +1,6 @@
 # EOS25
 All scipts required to reproduce the EOS25 simulation
-|         EOS25 simulation step        | Computation time [hrs] |        | Memory [Tb] | Description | Storage [Tb]                                      |        | SUs               |        |
+|         EOS25 simulation step        | Computation time [hrs]          | Memory [Tb]               | Storage [Tb]                                               | SUs                        |
 |:------------------------------------:|------------------------|--------|-------------|-------------|---------------------------------------------------|--------|-------------------|--------|
 |                                      | Estimated              | Actual | Estimated   | Actual      | Estimated                                         | Actual | Estimated         | Actual |
 | Initial conditions                   | 11                     | 13.5   | 2.5         |             | 1.2                                               |        | 800 EM            |        |
