@@ -24,13 +24,13 @@ All scipts required to reproduce the EOS25 simulation
   <tr>
     <td>Initial conditions</td>
     <td>11<br><br></td>
-    <td>13.5 + 3 <br>for writing to disk</td>
+    <td>13.5 + 2.75 <br>for writing to disk</td>
     <td>2.5</td>
-    <td></td>
+    <td>1.96</td>
     <td>1.2</td>
     <td></td>
     <td>800 EM</td>
-    <td></td>
+    <td>1170.92</td>
   </tr>
   <tr>
     <td>One perturbed field<br></td>
