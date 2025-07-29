@@ -1,21 +1,6 @@
 # EOS25
 All scipts required to reproduce the EOS25 simulation
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-d52n{background-color:#32cb00;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-7od5{background-color:#9aff99;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-llyw{background-color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-roi2{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-tw5s{background-color:#fe0000;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-90e1{background-color:#ffccc9;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg"><thead>
   <tr>
     <th class="tg-roi2" rowspan="2">EOS25 simulation step<br></th>
