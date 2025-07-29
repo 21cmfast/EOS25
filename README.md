@@ -23,7 +23,7 @@ All scipts required to reproduce the EOS25 simulation
   <tr>
     <td class="tg-c6of">Initial conditions</td>
     <td class="tg-7od5">11</td>
-    <td class="tg-90e1">13.5</td>
+    <td class="tg-90e1">13.5 + 3<br>for writing to disk</td>
     <td class="tg-7od5">2.5</td>
     <td class="tg-90e1"></td>
     <td class="tg-7od5">1.2</td>
