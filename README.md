@@ -43,7 +43,7 @@ All scipts required to reproduce the EOS25 simulation
     <td class="tg-90e1"></td>
   </tr>
   <tr>
-    <td class="tg-c6of">Perturbed halo field</td>
+    <td class="tg-c6of">Perturbed halo fields</td>
     <td class="tg-7od5">15</td>
     <td class="tg-90e1"></td>
     <td class="tg-7od5">1.3</td>
