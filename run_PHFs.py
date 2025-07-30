@@ -2,7 +2,7 @@ import py21cmfast as p21c
 from py21cmfast.io.caching import RunCache, CacheConfig
 import numpy as np
 
-#p21c.config['HALO_CATALOG_MEM_FACTOR'] = 2.
+p21c.config['HALO_CATALOG_MEM_FACTOR'] = 1.4
 
 cache = p21c.OutputCache('/ocean/projects/phy210034p/breitman/EOS25/EOS25_L2100_HIIDIM1400_DIM4200')
 
