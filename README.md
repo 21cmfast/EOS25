@@ -41,7 +41,7 @@ All scipts required to reproduce the EOS25 simulation
     <td>43Gb x 92 = 4Tb</td>
     <td></td>
     <td>9k RM-512</td>
-    <td>3k RM-512 + 22 EM</td>
+    <td>3.13k RM-512 + 22 EM</td>
   </tr>
   <tr>
     <td>Perturbed halo fields</td>
