@@ -46,13 +46,13 @@ All scipts required to reproduce the EOS25 simulation
   <tr>
     <td>Perturbed halo fields</td>
     <td>15</td>
-    <td></td>
+    <td>17.6</td>
     <td>1.3</td>
-    <td></td>
+    <td>1.26</td>
     <td>1</td>
     <td></td>
     <td>720 EM</td>
-    <td></td>
+    <td>847 EM</td>
   </tr>
   <tr>
     <td>Evolving astrophysics for one coeval</td>
