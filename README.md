@@ -30,7 +30,7 @@ All scipts required to reproduce the EOS25 simulation
     <td>652 Gb</td>
     <td>747 Gb</td>
     <td></td>
-    <td>863 EM SUs <br> for both ICs + PFs<br></td>
+    <td>864 EM <br> for ICs + PFs<br></td>
   </tr>
   <tr>
     <td>One perturbed field<br></td>
@@ -45,14 +45,14 @@ All scipts required to reproduce the EOS25 simulation
   </tr>
   <tr>
     <td>Perturbed halo fields</td>
-    <td>10</td>
+    <td>22 hrs</td>
     <td></td>
     <td>0.71</td>
-    <td></td>
-    <td>1</td>
-    <td></td>
+    <td>0.77</td>
+    <td>~330 G</td>
+    <td>33 G</td>
     <td>720 EM</td>
-    <td>847 EM</td>
+    <td>617 EM</td>
   </tr>
   <tr>
     <td>Evolving astrophysics for one coeval</td>
